@@ -54,7 +54,7 @@ def find(word,count) :
     for i in rdoc3 :
         doc3.append(i.get_attribute('href'))
     
-    doc = zip(doc1 , doc3)
+    doc = zip(doc1, doc2 , doc3)
 
 
     count
